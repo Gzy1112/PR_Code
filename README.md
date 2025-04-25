@@ -87,7 +87,7 @@ python ./llava_retrieval_bartscore_multiview_f30k.py
 
 ## Video-Text Compositional Reasoning 
 
-Use ChatGPT-4o to transform video information into text information. 
+Use ChatGPT-4o/Video-LLaVA to transform video information into text information. 
 
 ```python
 python ./ChatGPT_Description.py
