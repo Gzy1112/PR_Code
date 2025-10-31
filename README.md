@@ -1,8 +1,7 @@
-# VLCR-IVT: A zero-shot visio-linguistic compositional reasoning method between image/video-text modalities based on multimodal LLM and autoregressive GLM
+# VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model
 
 
-
-Experiments and data for the paper "VLCR-IVT: A zero-shot visio-linguistic compositional reasoning method between image/video-text modalities based on multimodal LLM and autoregressive GLM". 
+Experiments and data for the paper "VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model". 
 
 
 
@@ -13,6 +12,8 @@ Our model is based on [LLaVA]([GitHub - haotian-liu/LLaVA: [NeurIPS'23 Oral\] Vi
 
 
 #  Datasets
+Three new datasets for the video-text compositional reasoning task can be seen in /datasets.
+The output of MLLM in the stage of modality mapping can be seen in /datasets.
 
 ## Visual Genome Relation & Attribution Datasets
 The VG-Relation and VG-Attribution datasets are simple to use. For instance:
