@@ -13,6 +13,7 @@ Our model is based on [LLaVA]([GitHub - haotian-liu/LLaVA: [NeurIPS'23 Oral\] Vi
 
 #  Datasets
 Three new datasets for the video-text compositional reasoning task can be seen in /datasets.
+
 The output of MLLM in the stage of modality mapping can be seen in /datasets.
 
 ## Visual Genome Relation & Attribution Datasets
