@@ -1,15 +1,6 @@
 # VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model
 
-
 Experiments and data for the paper "VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model". 
-
-
-
-#  Installation
-
-Our model is based on [LLaVA]([GitHub - haotian-liu/LLaVA: [NeurIPS'23 Oral\] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.](https://github.com/haotian-liu/LLaVA)) and [NegCLIP]([GitHub - mertyg/vision-language-models-are-bows: Experiments and data for the paper "When and why vision-language models behave like bags-of-words, and what to do about it?" Oral @ ICLR 2023](https://github.com/mertyg/vision-language-models-are-bows)) , please prepare environment for LLaVA and NegCLIP.
-
-
 
 #  Datasets
 Three new datasets for the video-text compositional reasoning task can be seen in ./datasets.
