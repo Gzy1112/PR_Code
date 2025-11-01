@@ -101,7 +101,7 @@ run msvd_order_bartscore_multiview.ipynb
 For Video-Relation
 
 ```python
-run relation_order_bartscore_multiview.ipynb
+run video_relation_bartscore_multiview.ipynb
 ```
 
 # Contact 
