@@ -12,9 +12,9 @@ Our model is based on [LLaVA]([GitHub - haotian-liu/LLaVA: [NeurIPS'23 Oral\] Vi
 
 
 #  Datasets
-Three new datasets for the video-text compositional reasoning task can be seen in /datasets.
+Three new datasets for the video-text compositional reasoning task can be seen in ./datasets.
 
-The output of MLLM in the stage of modality mapping can be seen in /datasets.
+The output of MLLM in the stage of modality mapping can be seen in ./datasets.
 
 ## Visual Genome Relation & Attribution Datasets
 The VG-Relation and VG-Attribution datasets are simple to use. For instance:
@@ -48,7 +48,7 @@ flickr_order_dataset = Flickr30k_Order(image_preprocess=preprocess, root_dir=roo
 
 These datasets require videos(frames) from MSRVTT and MSVD datasets.  You can find two datasets [here]([GitHub - whwu95/Cap4Video: 【CVPR'2023 Highlight & TPAMI】Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?](https://github.com/whwu95/Cap4Video)).
 
-These two new datasets have been uploaded to `./datasets/MSRVTT-Order.json` and `./datasets/MSVD-Order.json`
+These three new datasets have been uploaded to `./datasets/MSRVTT-Order.json`, `./datasets/MSVD-Order.json` and `./datasets/Video-Relation.py`.
 
 ```python
 import json
@@ -70,19 +70,19 @@ with open(fcc_file, 'r') as fcc_file:
 For VG-Relation
 
 ```python
-python ./llava_retrieval_bartscore_multiview_relation.py
+python ./mllm_bartscore_multiview_relation.py
 ```
 
 For VG-Attribution
 
 ```python
-python ./llava_retrieval_bartscore_multiview_attrib.py
+python ./mllm_bartscore_multiview_attrib.py
 ```
 
 For Flickr30K-Order
 
 ```python
-python ./llava_retrieval_bartscore_multiview_f30k.py
+python ./mllm_bartscore_multiview_f30k.py
 ```
 
 
@@ -107,7 +107,11 @@ For MSVD-Order
 run msvd_order_bartscore_multiview.ipynb
 ```
 
+For Video-Relation
 
+```python
+run relation_order_bartscore_multiview.ipynb
+```
 
 # Contact 
 
