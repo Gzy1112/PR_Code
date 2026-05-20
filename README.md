@@ -1,11 +1,11 @@
-# VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model
+# VLCU-IVT: A zero-shot MLLM-guided visio-linguistic compositional understanding method with the autoregressive generative language model
 
-Experiments and data for the paper "VLCR-IVT: A zero-shot MLLM-guided visio-linguistic compositional reasoning method with the autoregressive generative language model". 
+Experiments and data for the paper "VLCU-IVT: A zero-shot MLLM-guided visio-linguistic compositional understanding method with the autoregressive generative language model". 
 
 #  Datasets
-Three new datasets for the video-text compositional reasoning task can be seen in ./datasets.
+Three new datasets for the video-text compositional understanding task can be seen in ./datasets.
 
-The output of MLLM in the stage of modality mapping can be seen in ./datasets.
+The output of MLLM in the stage of compositional textualization can be seen in ./datasets.
 
 ## Visual Genome Relation & Attribution Datasets
 The VG-Relation and VG-Attribution datasets are simple to use. For instance:
@@ -56,7 +56,7 @@ with open(fcc_file, 'r') as fcc_file:
 
 # How to use
 
-## Image-Text Compositional Reasoning 
+## Image-Text Compositional Understanding
 
 For VG-Relation
 
@@ -78,7 +78,7 @@ python ./mllm_bartscore_multiview_f30k.py
 
 
 
-## Video-Text Compositional Reasoning 
+## Video-Text Compositional Understanding 
 
 Use ChatGPT-4o/Video-LLaVA to transform video information into text information. 
 
